@@ -1,25 +1,23 @@
-# To-Do List (Full Stack)
+## 📝 To-Do List – Full Stack
 
-A simple full stack app: HTML/CSS/JavaScript frontend, Node.js + Express backend, JSON file storage.
+A simple and beginner-friendly full-stack To-Do List application developed to understand how a frontend communicates with a backend through REST APIs.
 
-## Run it
-1. Install Node.js (https://nodejs.org)
-2. In this folder run:
-   npm install
-   npm start
-3. Open http://localhost:3000
+The application allows users to create, edit, delete, complete, and filter tasks. Task data is stored in a JSON file, providing simple persistent storage without requiring a database.
 
-## Features
-Add, edit, delete, mark done, filter (All / Active / Done). Tasks are saved in todos.json.
+### 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- REST API
+- JSON
 
-## API
-GET    /api/todos        list tasks
-POST   /api/todos        add a task        { "title": "..." }
-PUT    /api/todos/:id    edit / mark done  { "title": "...", "done": true }
-DELETE /api/todos/:id    delete a task
-
-## Structure
-server.js          backend + REST API
-public/index.html  page
-public/style.css   styling
-public/script.js   frontend logic (fetch calls)
+### ✨ Features
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as completed
+- Delete tasks
+- Filter tasks by All, Active, and Done
+- Persistent task storage using `todos.json`
+- Frontend-backend communication using Fetch API
